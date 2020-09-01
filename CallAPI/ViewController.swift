@@ -89,7 +89,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         if((scrollView.contentOffset.y + scrollView.frame.size.height) >= scrollView.contentSize.height) {
             getData()
-            self.data += self.data
+            //self.data += self.data
             tableView.reloadData()
         }
     }

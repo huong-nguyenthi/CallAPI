@@ -13,9 +13,9 @@
 		7202D4D824FCEE86006B2AF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7202D4D624FCEE86006B2AF6 /* Main.storyboard */; };
 		7202D4DA24FCEE89006B2AF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7202D4D924FCEE89006B2AF6 /* Assets.xcassets */; };
 		7202D4DD24FCEE89006B2AF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7202D4DB24FCEE89006B2AF6 /* LaunchScreen.storyboard */; };
-		7202D4E624FCEF1C006B2AF6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7202D4E424FCEF1C006B2AF6 /* TableViewCell.swift */; };
 		7202D4E924FCEFB9006B2AF6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7202D4E824FCEFB9006B2AF6 /* Data.swift */; };
-		72A7C6EE24FDE238001F7E14 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A7C6ED24FDE238001F7E14 /* TableViewCell.xib */; };
+		72A7C6FA24FE2378001F7E14 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A7C6F824FE2378001F7E14 /* TableViewCell.swift */; };
+		72A7C6FB24FE2378001F7E14 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A7C6F924FE2378001F7E14 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,10 +27,10 @@
 		7202D4D924FCEE89006B2AF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7202D4DC24FCEE89006B2AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7202D4DE24FCEE89006B2AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7202D4E424FCEF1C006B2AF6 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		7202D4E824FCEFB9006B2AF6 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		72A7C6ED24FDE238001F7E14 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewCell.xib; path = ../../../../Downloads/Api/Api/cell/TableViewCell.xib; sourceTree = "<group>"; };
 		72A7C6EF24FE1B39001F7E14 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		72A7C6F824FE2378001F7E14 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		72A7C6F924FE2378001F7E14 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +66,8 @@
 				7202D4D024FCEE86006B2AF6 /* AppDelegate.swift */,
 				72A7C6EF24FE1B39001F7E14 /* README.md */,
 				7202D4E824FCEFB9006B2AF6 /* Data.swift */,
-				7202D4E424FCEF1C006B2AF6 /* TableViewCell.swift */,
-				72A7C6ED24FDE238001F7E14 /* TableViewCell.xib */,
+				72A7C6F824FE2378001F7E14 /* TableViewCell.swift */,
+				72A7C6F924FE2378001F7E14 /* TableViewCell.xib */,
 				7202D4D224FCEE86006B2AF6 /* SceneDelegate.swift */,
 				7202D4D424FCEE86006B2AF6 /* ViewController.swift */,
 				7202D4D624FCEE86006B2AF6 /* Main.storyboard */,
@@ -137,7 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7202D4DD24FCEE89006B2AF6 /* LaunchScreen.storyboard in Resources */,
-				72A7C6EE24FDE238001F7E14 /* TableViewCell.xib in Resources */,
+				72A7C6FB24FE2378001F7E14 /* TableViewCell.xib in Resources */,
 				7202D4DA24FCEE89006B2AF6 /* Assets.xcassets in Resources */,
 				7202D4D824FCEE86006B2AF6 /* Main.storyboard in Resources */,
 			);
@@ -150,9 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A7C6FA24FE2378001F7E14 /* TableViewCell.swift in Sources */,
 				7202D4D524FCEE86006B2AF6 /* ViewController.swift in Sources */,
 				7202D4E924FCEFB9006B2AF6 /* Data.swift in Sources */,
-				7202D4E624FCEF1C006B2AF6 /* TableViewCell.swift in Sources */,
 				7202D4D124FCEE86006B2AF6 /* AppDelegate.swift in Sources */,
 				7202D4D324FCEE86006B2AF6 /* SceneDelegate.swift in Sources */,
 			);
